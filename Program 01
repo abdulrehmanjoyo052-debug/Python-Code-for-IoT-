@@ -1,6 +1,6 @@
 # 1:Write a Python program that take's
 the user's name as input and then prints a greeting message like "Hello,Abdul"
 
-
+Code:
 name= input("Enter your name: ")
 print("Hello ," + name )
