@@ -1,0 +1,40 @@
+# 1:Write a Python program that takes the user's name as input and then prints a greeting message like "Hello,Ali"
+
+name= input("Enter your name: ")
+print("Hello ," + name )
+
+
+#2:Write a Python program that takes hours worked and hourly rate as input from the user,then calculates and displays the gross pay.
+
+hours= float(input("Enter your hours of working: "))
+rate= float(input("Enter your rate: "))
+gross_pay= hours*rate
+print("Gross pay:", gross_pay)
+
+
+#3:Write a Python program that takes Temperature is Celsius as input from the user and convert it to Fahrenheit.
+
+Celsius= float(input("Enter your Celsius: ")
+fahrenheit= Celsius*9/5+32
+print("Temperature in Fahrenheit,",fahrenheit)
+
+
+#4:Write a Python program that takes two numbers
+# as input and calculate the first number Raised to the power of second number (Exponentiation)
+
+num1 = int(input("Enter your number: "))
+num2 = int(input("Enter your number: "))
+result = num1*num2
+print("Raised to the power of:",num1*num2)
+
+
+#5:What does the Python code do? Explain the type conversion that happens in this program.
+age= 20
+item =5
+print("age:", age)
+print("item:",item)
+
+age= float(age)
+item= float(item)
+print("age:", age)
+print("item:", item)
