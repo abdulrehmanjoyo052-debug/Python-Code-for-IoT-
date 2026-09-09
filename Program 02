@@ -1,0 +1,7 @@
+#2:Write a Python program that takes hours worked and hourly rate as input from the user,then calculates and displays the gross pay.
+
+
+hours= float(input("Enter your hours of working: "))
+rate= float(input("Enter your rate: "))
+gross_pay= hours*rate
+print("Gross pay:", gross_pay)
