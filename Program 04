@@ -1,6 +1,6 @@
 #4:Write a Python program that takes two numbers as input and calculate the first number Raised to the power of second number (Exponentiation)
 
-
+Code:
 num1 = int(input("Enter your number: "))
 num2 = int(input("Enter your number: "))
 result = num1*num2
